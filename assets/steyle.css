@@ -305,6 +305,10 @@ ul, ol {
           transform: scale(1.1);
 }
 
+.fresh {
+  margin-bottom: 100px;
+}
+
 .fresh_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,6 +363,35 @@ ul, ol {
           transform: scale(1.1);
 }
 
+.best_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.best_title {
+  width: 50%;
+}
+
+.best_title .best_text {
+  font-size: 55px;
+  font-family: monospace;
+}
+
+.best_title .best_suptext {
+  font-size: 22px;
+  font-family: monospace;
+  width: 90%;
+  color: #181D19;
+  line-height: 35px;
+}
+
 fieldset {
   border: none;
   display: -webkit-box;
@@ -377,5 +410,22 @@ fieldset .input_box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.input_ {
+  margin-right: 15px;
+}
+
+.imput_suptext {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.best_img {
+  width: 50%;
+}
+
+.best_img .best_photo {
+  width: 650px;
 }
 /*# sourceMappingURL=steyle.css.map */
