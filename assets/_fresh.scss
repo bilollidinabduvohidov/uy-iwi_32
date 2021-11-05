@@ -1,0 +1,63 @@
+.fresh_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.fresh_img{
+    width: 50%;
+    .fresh_photo{
+        width: 500px;
+    }
+}
+
+.fresh_title{
+    width: 50%;
+    .fresh_text{
+        font-size: 55px;
+        font-family: monospace;
+        color: black;
+    }
+
+    .fresh_suptext{
+        font-size: 22px;
+        font-family: monospace;
+        color: #181D19;
+        line-height: 32px;
+    }
+
+    @mixin button($color, $background, $border, $border-radius, $size, $transition){
+        color: $color;
+        background: $background;
+        border: $border;
+        border-radius: $border-radius;
+        padding: $size;
+        transition: $transition;
+    }
+
+    .fresh_button{
+        font-size: 18px;
+        @include button(white, #2C9553, none, 30px, 15px 35px,
+        .3s,)
+    }
+
+    .fresh_button:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    .input_box{
+        display: flex;
+        align-items: center;
+    }
+}
