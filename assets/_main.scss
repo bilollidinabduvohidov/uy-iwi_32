@@ -1,0 +1,64 @@
+.main{
+    margin-bottom: 100px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.main_title{
+    width: 50%;
+    .main_text{
+        color: #181D19;
+        font-size: 60px;
+        font-family:monospace;
+        .main_span{
+            color: #5FB848;
+        }
+    }
+
+    .main_suptext{
+        font-size: 22px;
+        color: #181D19;
+        font-family: monospace;
+        line-height: 32px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    @mixin button($color, $background, $border, $border-radius, $size, $transition){
+        color: $color;
+        background: $background;
+        border: $border;
+        border-radius: $border-radius;
+        padding: $size;
+        transition: $transition;
+    }
+
+    .main_button{
+        font-size: 18px;
+        @include button(white, #2C9553, none, 30px, 15px 35px,
+        .3s,)
+    }
+
+    .main_button:hover{
+        transform: scale(1.1);
+    }
+}
+
+.main_img{
+    width: 50%;
+    position: relative;
+    .main_photo{
+        width: 600px;
+    }
+
+    .main_photos{
+        width: 595px;
+        position: absolute;
+        top: 5%;
+        left: 2%;
+    }
+}
