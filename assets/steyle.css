@@ -428,4 +428,87 @@ fieldset .input_box {
 .best_img .best_photo {
   width: 650px;
 }
-/*# sourceMappingURL=steyle.css.map */
+
+.for {
+  margin-bottom: 100px;
+}
+
+.for_you {
+  text-align: center;
+}
+
+.for_you .foryou_text {
+  font-size: 55px;
+  font-family: monospace;
+  color: black;
+}
+
+.for_you .foryou_suptext {
+  font-family: monospace;
+  font-size: 24px;
+  color: #3B433E;
+  margin-bottom: 120px;
+}
+
+.for_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.for_title {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  -webkit-box-shadow: 4px 20px 20px 4px rgba(0, 0, 0, 0.089);
+          box-shadow: 4px 20px 20px 4px rgba(0, 0, 0, 0.089);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.for_title .for_photo {
+  width: 300px;
+}
+
+.for_title .for_text {
+  font-size: 38px;
+  color: #181D19;
+}
+
+.for_title .for_suptext {
+  font-size: 22px;
+  width: 80%;
+  margin-left: 40px;
+  color: #3B433E;
+  line-height: 30px;
+}
+
+.for__button {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.for__button .for_button {
+  font-size: 18px;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 30px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.for_button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
