@@ -1,0 +1,112 @@
+.choose{
+    margin-bottom: 100px;
+}
+
+.choose_box{
+    text-align: center;
+    .choose_text{
+        font-size: 55px;
+        color: #151414;
+        margin-bottom: -20px;
+        font-family: monospace;
+    }
+
+    .choose_suptext{
+        color: #3B433E;
+        font-size: 25px;
+        font-family: monospace;
+    }
+}
+
+.easiy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .easiy_photo{
+        width: 100px;
+    }
+
+    .easiy_text{
+        font-size: 25px;
+        color: #151414;
+        font-family: monospace;
+    }
+
+    .easiy_suptext{
+        font-size: 18px;
+        width: 70%;
+        margin-left: 50px;
+        color: #3B433E;
+    }
+}
+
+.nomber{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.online_text{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: -8px;
+}
+
+.online_suptext{
+    color: #3B433E;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about_title{
+        width: 50%;
+    }
+    .about_img{
+        width: 50%;
+    }
+}
+
+.about_photo{
+    width: 500px;
+}
+
+.about_title{
+    .about_text{
+        font-size: 55px;
+        font-family: monospace;
+    }
+
+    .about_suptext{
+        font-size: 22px;
+        color: #3B433E;
+        width: 75%;
+        line-height: 33px;
+    }
+
+    @mixin button($color, $background, $border, $border-radius, $size, $transition){
+        color: $color;
+        background: $background;
+        border: $border;
+        border-radius: $border-radius;
+        padding: $size;
+        transition: $transition;
+    }
+
+    .about_button{
+        font-size: 18px;
+        @include button(white, #2C9553, none, 30px, 15px 35px,
+        .3s,)
+    }
+
+    .about_button:hover{
+        transform: scale(1.1);
+    }
+}
