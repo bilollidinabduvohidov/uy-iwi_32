@@ -65,3 +65,78 @@
 .for_button:hover{
     transform: scale(1.1);
 }
+
+.heppiy_box{
+    text-align: center;
+    .heppiy_box_text{
+        font-size: 55px;
+        font-family: monospace;
+    }
+}
+
+.says_box{
+    margin-left: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .says_img{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+.says_img{
+    .says_photo{
+        width: 100px;
+    }
+
+    .says_avatar{
+        margin-left: 20px;
+        .avatar_text{
+            font-size: 30px;
+            color: #181D19;
+            margin-bottom: -5px;
+        }
+
+        .avatar_suptext{
+            font-size: 18px;
+            color: #3B433E;
+        }
+    }
+}
+
+.says_title{
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 20px 5px rgba(0, 0, 0, 0.24);
+    .says_suptext{
+        font-size: 20px;
+        color: #3B433E;
+        font-family: monospace;
+        line-height: 30px;
+        width: 80%;
+    }
+}
+
+.arrow_img{
+    text-align: center;
+    .arrow_photo{
+        width: 50px;
+        margin: 10px;
+        transition: .3s;
+    }
+
+    .arrow_photos{
+        width: 70px;
+        margin: 10px;
+        transition: .3s;
+    }
+}
+
+.arrow_photo:hover, .arrow_photos:hover{
+    transform: scale(1.3);
+}
