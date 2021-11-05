@@ -1,0 +1,73 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar_link{
+        color: #333333;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .nav_list{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav_link{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0 15px;
+        color: #2C3847;
+        text-transform: capitalize;
+        font-size: 18px;
+        transition: .3s;
+        letter-spacing: 1px;
+    }
+
+    .nav_link:hover{
+        color: #5FB848;
+    }
+
+    .nav_box{
+        display: flex;
+        align-items: center;
+        .nav_photo{
+            margin: 10px;
+            width: 23px;
+            transition: .3s;
+            padding: 1px;
+        }
+
+        .nav_photo:hover{
+            transform: scale(1.2);
+        }
+
+        @mixin button($color, $background, $border, $border-radius, $size, $transition){
+            color: $color;
+            background: $background;
+            border: $border;
+            border-radius: $border-radius;
+            padding: $size;
+            transition: $transition;
+        }
+
+        .nav_button{
+            @include button(white, #494949, none, 30px, 15px 25px,
+            .3s)
+        }
+
+        .nav_button:hover{
+            transform: scale(1.1);
+        }
+    }
+}
