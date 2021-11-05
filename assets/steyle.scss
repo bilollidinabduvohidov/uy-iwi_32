@@ -3,6 +3,7 @@
 }
 
 a{
+    text-decoration: none;
     display: inline-block;
 }
 
@@ -10,3 +11,6 @@ ul, ol{
     list-style: none;
 }
 
+@import "navbar";
+@import "main";
+@import "choose";
