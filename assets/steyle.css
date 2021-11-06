@@ -713,4 +713,24 @@ fieldset .input_box {
 .home_list .home_item .home_link:hover {
   color: black;
 }
+
+footer {
+  text-align: center;
+}
+
+footer .footer_link {
+  font-size: 18px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: white;
+  width: 100%;
+  padding: 20px 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer .footer_link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=steyle.css.map */
